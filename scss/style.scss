@@ -1,0 +1,22 @@
+
+.main {
+  text-align: center;
+}
+
+
+@import "compass/css3";
+
+img { 
+  display: block; 
+  margin: 20px auto;
+  cursor: pointer;
+  
+  &:active {
+    animation: vibrate 0.1s;
+  }
+}
+
+@keyframes vibrate {
+  50% { transform: rotate(2deg) translateX(2px); }
+  100% { transform: rotate(-2deg) translateX(-2px); }
+}

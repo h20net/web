@@ -1,0 +1,38 @@
+.main {
+  text-align: center;
+}
+
+
+
+.img2 {
+  display: block;
+  margin: 20px auto;
+  cursor: pointer;
+}
+.img2:active {
+  animation: vibrate 0.1s;
+}
+
+@keyframes vibrate {
+  50% {
+    transform: rotate(2deg) translateX(2px);
+  }
+  100% {
+    transform: rotate(-2deg) translateX(-2px);
+  }
+}
+
+/* Start http://www.cursors-4u.com */ * {cursor: url(http://cur.cursors-4u.net/nature/nat-10/nat927.ani), url(http://cur.cursors-4u.net/nature/nat-10/nat927.png), auto !important;} /* End http://www.cursors-4u.com */
+
+.img3 {
+position: absolute;
+pointer-events: none;
+background: url('hitmarker.png');
+width: 18%
+}
+
+  #hitmarker1 {
+    opacity: 1;
+    transition: 1s opacity;
+  }
+}
