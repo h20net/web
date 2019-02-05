@@ -7,7 +7,7 @@ var image = document.getElementById("clickme"),
   }
 
 image.onmousedown = function() {
-  count += 100;
+  count += 1;
   document.getElementById("score").innerHTML = count;
 
   window.setTimeout(fadeout, 300);
